@@ -1,4 +1,6 @@
 import socket
+import sys
+
 
 print("🔍 Python Port Scanner")
 print("----------------------")
@@ -17,7 +19,16 @@ try:
          result = s.connect_ex((target, port))
     
          if result == 0:
-              print(f"✅ Port {port} is OPEN")
+              print(f"\n✅ Port {port} is OPEN")
+
+              try:
+                        banner = s.recv(1024).decode().strip()
+                        if banner:
+                               print(f"🏷️ Banner: {banner}")
+
+          
+              except:
+                    pass
 
          s.close()
          

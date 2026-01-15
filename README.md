@@ -11,6 +11,7 @@ This project demonstrates the basics of TCP port scanning using Python sockets.
 - Uses socket timeouts to avoid freezing
 - Handles user interruption gracefully (Ctrl + C)
 - Clean and simple implementation for learning purposes
+- Basic banner grabbing for service identification
 
 ---
 
@@ -20,6 +21,7 @@ This project demonstrates the basics of TCP port scanning using Python sockets.
 - Difference between open, closed, and filtered ports
 - Importance of timeouts and resource cleanup
 - Ethical considerations of active reconnaissance
+- How services may leak information through banners
 
 ---
 
