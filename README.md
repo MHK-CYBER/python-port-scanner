@@ -1,11 +1,11 @@
-# 🔍 Python Port Scanner
+#  Python Port Scanner
 
 A beginner-friendly Python port scanner built to understand how network scanning works internally.  
 This project demonstrates the basics of TCP port scanning using Python sockets.
 
 ---
 
-## 📌 Features
+##  Features
 - Scans a user-defined range of ports
 - Identifies open TCP ports
 - Uses socket timeouts to avoid freezing
@@ -15,7 +15,7 @@ This project demonstrates the basics of TCP port scanning using Python sockets.
 
 ---
 
-## 🧠 What I Learned
+##  What I Learned
 - How port scanning works behind tools like Nmap
 - Basics of socket programming in Python
 - Difference between open, closed, and filtered ports
@@ -25,7 +25,7 @@ This project demonstrates the basics of TCP port scanning using Python sockets.
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 The scanner:
 1. Takes a target IP address
 2. Takes a start and end port
@@ -36,7 +36,7 @@ This is similar to a **TCP Connect Scan** (`nmap -sT`).
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ```bash
 python scanner.py
@@ -46,12 +46,11 @@ Enter target IP: 127.0.0.1
 Enter start port: 1
 Enter end port: 1024
 
-⚠️ Disclaimer
+## Disclaimer:
 
 This tool is for educational purposes only.
 Scan only systems you own or have explicit permission to test.
 
-🧑‍💻 Author
+ Author:
 
 Mehek (MHK-CYBER)
-Aspiring Penetration Tester
