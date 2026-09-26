@@ -2,7 +2,7 @@ import socket
 import sys
 
 
-print("🔍 Python Port Scanner")
+print("Python Port Scanner")
 print("----------------------")
 
 target = input("Enter target IP (e.g. 127.0.0.1): ")
@@ -19,12 +19,12 @@ try:
          result = s.connect_ex((target, port))
     
          if result == 0:
-              print(f"\n✅ Port {port} is OPEN")
+              print(f"\n Port {port} is OPEN")
 
               try:
                         banner = s.recv(1024).decode().strip()
                         if banner:
-                               print(f"🏷️ Banner: {banner}")
+                               print(f" Banner: {banner}")
 
           
               except:
@@ -34,5 +34,5 @@ try:
          
     
 except KeyboardInterrupt:
-     print("\n⛔ Scan interrupted by user.")
+     print("\n Scan interrupted by user.")
 
